@@ -10,69 +10,68 @@
     <TextView
 
         android:id="@+id/monday_button"
-        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         android:layout_weight="1"
-        android:textSize="35sp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
         android:gravity="center"
         android:text="@string/monday"
-        android:layout_margin="25dp"
         android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/tuesday_button"
-        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         android:layout_weight="1"
-        android:textSize="35sp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
         android:gravity="center"
         android:text="@string/tuesday"
-        android:layout_margin="25dp"
         android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/wednesday_button"
-        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         android:layout_weight="1"
-        android:textSize="35sp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
         android:gravity="center"
         android:text="@string/wednesday"
-        android:layout_margin="25dp"
         android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/thursday_button"
-        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         android:layout_weight="1"
-        android:textSize="35sp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
         android:gravity="center"
         android:text="@string/thursday"
-        android:layout_margin="25dp"
         android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:textSize="35sp" />
 
     <TextView
         android:id="@+id/friday_button"
-        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
         android:layout_weight="1"
-        android:textSize="35sp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
         android:gravity="center"
         android:text="@string/friday"
-        android:layout_margin="25dp"
         android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
+        android:textSize="35sp" />
 
 
 </LinearLayout>

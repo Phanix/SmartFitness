@@ -16,8 +16,6 @@
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="?attr/colorPrimary">
 
-
-
             <ImageView
                 android:contentDescription="@string/fitness_logo"
                 android:id="@+id/log_bar"
