@@ -27,20 +27,19 @@
         android:layout_height="wrap_content">
 
     <ImageView
+        android:contentDescription="@string/image_one_description"
         android:layout_margin="10dp"
         android:layout_weight="1"
         android:src="@mipmap/ic_launcher"
-
         android:id="@+id/widget_image_one"
         android:layout_width="0dp"
         android:layout_height="wrap_content" />
 
     <ImageView
-
+        android:contentDescription="@string/image_one_description"
         android:layout_margin="10dp"
         android:layout_weight="1"
         android:src="@mipmap/ic_launcher"
-
         android:id="@+id/widget_image_two"
         android:layout_width="0dp"
         android:layout_height="wrap_content" />
