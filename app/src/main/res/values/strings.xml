@@ -34,4 +34,8 @@
     <string name="appwidget_text">EXAMPLE</string>
     <string name="add_widget">Add widget</string>
     <string name="fitness_logo">Fitness logo</string>
+    <string name="calendar_image_description">Calendar Image</string>
+    <string name="weight_image_description">Weight Image</string>
+    <string name="image_one_description">First Exercise</string>
+    <string name="image_two_description">Second Exercise</string>
 </resources>
