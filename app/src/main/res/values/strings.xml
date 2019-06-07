@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Smart Fitness</string>
+    <string name="weight_button_description">Workout button</string>
+    <string name="workout_button_text">Workout</string>
+    <string name="progress_button_text">Progress</string>
+    <string name="monday">MONDAY</string>
+    <string name="friday">FRIDAY</string>
+    <string name="tuesday">TUESDAY</string>
+    <string name="wednesday">WEDNESDAY</string>
+    <string name="thursday">THURSDAY</string>
+    <string name="save_button">Save</string>
+    <string name="days_of_workout_label">Days Of Workout</string>
+    <string name="initial_weight_label">Initial Weight</string>
+    <string name="actual_weight_label">Actual Weight</string>
+    <string name="config_menu_label">Settings</string>
+    <string name="user_goal">Goal</string>
+    <string name="lose_weight_label">Lose Weight</string>
+    <string name="gain_muscle_label">Gain Muscle</string>
+    <string name="bt_save_label">Save</string>
+    <string name="invalid_number_exception">Invalid Value</string>
+    <string name="dialog_settings_question">Change Weight ?</string>
+    <string name="no_internet_connection">NO INTERNET CONNECTION</string>
+    <string name="no_internet_info">Check Internet Connection</string>
+    <string name="running_instruction">Run about 10 minutes</string>
+    <string name="jump_instruction">Jump 10 times</string>
+    <string name="bicycle_instruction">Make 10 minutes</string>
+    <string name="abs_instruction">Do it 2 x 10</string>
+    <string name="chest_instruction">Do it 3 x 7</string>
+    <string name="punch_instruction">Do it 2 x 30</string>
+    <string name="arm_instruction">Do it 4 x 6</string>
+    <string name="leg_instruction">Do it 3 x 15</string>
+    <string name="complete">Done</string>
+    <string name="action_share">Share</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

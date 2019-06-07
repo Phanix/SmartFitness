@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Settings">
+
+    
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:id="@+id/tv_initial_weight_settings"
+        android:textSize="30sp"
+        android:text="@string/initial_weight_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:id="@+id/tv_actual_weight_settings"
+        android:textSize="30sp"
+        android:text="@string/actual_weight_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:id="@+id/radio_goal_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:text="@string/user_goal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+
+            android:textSize="35sp"
+            android:text="@string/lose_weight_label"
+            android:id="@+id/rb_lose_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+
+            android:textSize="35sp"
+            android:text="@string/gain_muscle_label"
+            android:id="@+id/rb_gain_muscle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+
+
+</LinearLayout>

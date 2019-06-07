@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserProgress">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:elevation="6dp"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/tv_days_of_workout"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:text="@string/days_of_workout_label"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:elevation="6dp"
+        android:background="@android:color/holo_green_dark"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitXY"
+            android:src="@drawable/weighticon"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/tv_initial_weight"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:text="@string/initial_weight_label"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+        <TextView
+            android:id="@+id/tv_actual_weight"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:text="@string/actual_weight_label"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/request_quote_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layerType="none"
+            android:scaleType="centerInside"
+            android:verticalScrollbarPosition="defaultPosition"
+            android:layout_margin="16dp"
+            app:srcCompat="@android:drawable/ic_dialog_dialer"></android.support.design.widget.FloatingActionButton>
+
+
+
+</LinearLayout>

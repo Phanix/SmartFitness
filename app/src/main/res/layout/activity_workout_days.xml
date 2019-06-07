@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WorkoutDays">
+
+    <TextView
+
+        android:id="@+id/monday_button"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="@string/monday"
+        android:layout_margin="25dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tuesday_button"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="@string/tuesday"
+        android:layout_margin="25dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/wednesday_button"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="@string/wednesday"
+        android:layout_margin="25dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/thursday_button"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="@string/thursday"
+        android:layout_margin="25dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/friday_button"
+        android:clickable="true"
+        android:layout_weight="1"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:text="@string/friday"
+        android:layout_margin="25dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

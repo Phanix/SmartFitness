@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "104916063269",
+    "firebase_url": "https://smart-fitness-e013a.firebaseio.com",
+    "project_id": "smart-fitness-e013a",
+    "storage_bucket": "smart-fitness-e013a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104916063269:android:ad26fbd2e90a90f6",
+        "android_client_info": {
+          "package_name": "project.com.smartfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104916063269-akkkvnjcg9o9mu673okppvpe03t69143.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdmtPo6LZ6FJ-79xI7iUI2rOsW8g6ZuLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104916063269-akkkvnjcg9o9mu673okppvpe03t69143.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9421395053871893~6589228071"
+    }
+  ],
+  "configuration_version": "1"
+}
