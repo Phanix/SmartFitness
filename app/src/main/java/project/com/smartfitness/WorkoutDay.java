@@ -1,6 +1,5 @@
 package project.com.smartfitness;
 
-import android.app.AlertDialog;
 import android.arch.persistence.room.Room;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -10,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class WorkoutDay extends AppCompatActivity {
     String day;

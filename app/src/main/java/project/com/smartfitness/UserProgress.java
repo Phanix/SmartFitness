@@ -13,9 +13,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -25,9 +23,6 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-
-import javax.net.ssl.HttpsURLConnection;
-
 
 
 public class UserProgress extends AppCompatActivity implements LoaderManager.LoaderCallbacks<String>  {
@@ -128,7 +123,7 @@ public class UserProgress extends AppCompatActivity implements LoaderManager.Loa
                 httpURLConnection.setRequestMethod("GET");
                 httpURLConnection.connect();
                 InputStream inputStream = httpURLConnection.getInputStream();
-                data = Helper.converInputStream(inputStream);
+                data = Helper.convertInputStream(inputStream);
                 httpURLConnection.disconnect();
 
 

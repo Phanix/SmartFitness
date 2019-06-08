@@ -94,6 +94,7 @@
             android:layout_gravity="end"
             android:layout_weight="1"
             android:clickable="true"
+            android:focusable="true"
             android:layerType="none"
             android:scaleType="centerInside"
             android:verticalScrollbarPosition="defaultPosition"

@@ -7,19 +7,14 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import com.google.android.gms.ads.MobileAds;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.List;
-import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -96,15 +91,15 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(List<WorkoutDayEntry> workoutDayEntries) {
             super.onPostExecute(workoutDayEntries);
-            String datatoShare = "";
+            StringBuilder datatoShare = new StringBuilder();
             for(WorkoutDayEntry workoutDayEntry : workoutDayEntries){
-                datatoShare += workoutDayEntry.toString();
-                datatoShare += "\n";
+                datatoShare.append(workoutDayEntry.toString());
+                datatoShare.append("\n");
             }
 
             startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(MainActivity.this)
                     .setType("text/plain")
-                    .setText(datatoShare)
+                    .setText(datatoShare.toString())
                     .getIntent(), getString(R.string.action_share)));
         }
     }

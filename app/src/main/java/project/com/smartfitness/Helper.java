@@ -1,19 +1,14 @@
 package project.com.smartfitness;
 
-import android.content.SharedPreferences;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.io.BufferedInputStream;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
 import project.com.smartfitness.R;
-
-import static android.content.Context.MODE_PRIVATE;
 
 public class Helper {
     public static final String USER_PREFS_KEY = "UserPreferences";
@@ -24,7 +19,7 @@ public class Helper {
     public static final String USER_GOAL_GAIN_MUSCLE = "gainMuscle";
     public static final String USER_GOAL_LOSE_WEIGHT = "loseWeight";
     public static final String USER_DEFAULT_GOAL = USER_GOAL_LOSE_WEIGHT;
-    public static String converInputStream(InputStream inputStream){
+    public static String convertInputStream(InputStream inputStream){
         StringBuilder stringBuilder = new StringBuilder();
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
         try {
