@@ -38,4 +38,6 @@
     <string name="weight_image_description">Weight Image</string>
     <string name="image_one_description">First Exercise</string>
     <string name="image_two_description">Second Exercise</string>
+    <string name="floating_action_button_share_description">Share Button</string>
+    <string name="floating_action_button_quote_description">Quote Button</string>
 </resources>
