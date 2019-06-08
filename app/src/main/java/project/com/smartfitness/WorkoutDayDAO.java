@@ -1,5 +1,6 @@
 package project.com.smartfitness;
 
+import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.OnConflictStrategy;
@@ -14,7 +15,7 @@ public interface WorkoutDayDAO {
     void insert(WorkoutDayEntry workoutDayEntry);
 
     @Query("SELECT * FROM user_workouts")
-    List<WorkoutDayEntry> getAll();
+    LiveData<List<WorkoutDayEntry>> getAll();
 
     @Query("SELECT * FROM user_workouts WHERE day = :dayId")
     List<WorkoutDayEntry> getAllByDay(String dayId);

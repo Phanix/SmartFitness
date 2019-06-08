@@ -10,6 +10,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class WorkoutDay extends AppCompatActivity {
     String day;
     public final static String EXTRA_DAY = "extra";
@@ -17,10 +20,22 @@ public class WorkoutDay extends AppCompatActivity {
     int numberOfDays = 0;
     String userGoal;
     Boolean numberOfDaysSet = false;
+
+    @BindView(R.id.tv_one_instruction)
+    TextView tvOneInstruction;
+    @BindView(R.id.tv_two_instruction)
+    TextView tvTwoInstruction;
+    @BindView(R.id.iv_exercise_one)
+    ImageView ivExerciseOne;
+    @BindView(R.id.iv_exercise_two)
+    ImageView ivExerciseTwo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_workout_day);
+
+        ButterKnife.bind(this);
 
         SharedPreferences sharedPreferences = getSharedPreferences(Helper.USER_PREFS_KEY, MODE_PRIVATE);
          userGoal = sharedPreferences.getString(Helper.USER_PREF_GOAL_KEY, Helper.USER_DEFAULT_GOAL);
@@ -46,11 +61,6 @@ public class WorkoutDay extends AppCompatActivity {
             }
         });
 
-        TextView tvOneInstruction = findViewById(R.id.tv_one_instruction);
-        TextView tvTwoInstruction = findViewById(R.id.tv_two_instruction);
-
-        ImageView ivExerciseOne = findViewById(R.id.iv_exercise_one);
-        ImageView ivExerciseTwo = findViewById(R.id.iv_exercise_two);
 
 
 

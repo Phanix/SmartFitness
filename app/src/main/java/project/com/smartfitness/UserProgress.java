@@ -90,7 +90,7 @@ public class UserProgress extends AppCompatActivity implements LoaderManager.Loa
             mDialog.setMessage(quote.getText());
 
 
-            mDialog.setButton(AlertDialog.BUTTON_POSITIVE, "OK", new DialogInterface.OnClickListener() {
+            mDialog.setButton(AlertDialog.BUTTON_POSITIVE, getResources().getString(R.string.positive_button), new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();
                 }
