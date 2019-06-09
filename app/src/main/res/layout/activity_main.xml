@@ -97,7 +97,7 @@
                 android:focusable="true"
                 android:src="@android:drawable/ic_menu_share"
                 android:layout_alignParentBottom="true"
-                android:layout_alignParentRight="true" />
+                android:layout_alignParentEnd="true" />
         </RelativeLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

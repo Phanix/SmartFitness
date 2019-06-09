@@ -49,10 +49,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         workoutDayDatabase = Room.databaseBuilder(getApplicationContext(), WorkoutDayDatabase.class, WorkoutDayDatabase.DATABASE_NAME).build();
+
         getNewData();
-        if(mWorkoutDayEntries != null){
-            Toast.makeText(this, mWorkoutDayEntries.size() + "",  Toast.LENGTH_SHORT).show();
-        }
+
 
         FloatingActionButton floatingActionButton = findViewById(R.id.floatingActionButton);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
@@ -85,7 +84,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     public void shareData(List<WorkoutDayEntry> workoutDayEntries) {
 
 
@@ -103,7 +101,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void getNewData(){
-
         mainViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
         mainViewModel.getListLiveData().observe(this, new Observer<List<WorkoutDayEntry>>() {
             @Override
